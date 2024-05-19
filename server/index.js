@@ -9,7 +9,7 @@ const app = express();
 app.use(bodeParser.json());
 app.use(
   cors({
-    origin: ["http://localhost:3000"],
+    origin: ["https://mern-crud-frontend-henna.vercel.app"],
     credentials: true,
   })
 );
